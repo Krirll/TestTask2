@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestTask2</string>
+    <string name="confirmation">Подтверждение</string>
+    <string name="are_you_sure">Вы уверены, что хотите выйти?</string>
+    <string name="ok">OK</string>
+    <string name="no">НЕТ</string>
+</resources>
