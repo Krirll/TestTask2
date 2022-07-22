@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
             setAcceptThirdPartyCookies(webView, true)
         }
         webView?.settings?.cacheMode = WebSettings.LOAD_DEFAULT
-        webView?.webViewClient = WebViewClient()
         webView?.webViewClient = object : WebViewClient() {
 
             override fun shouldOverrideUrlLoading(
